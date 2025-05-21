@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/:path*",
-      "destination": "https://writers-vue-back-c7ih.vercel.app/:path*"
+      "destination": "https://writers-vue-back-ag5x.vercel.app/:path*"
     }
   ],
   "buildCommand": "npm run build",
