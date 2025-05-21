@@ -8,7 +8,8 @@ export default defineConfig({
             '/api': {
                 target: 'https://writers-vue-back-ag5x.vercel.app',
                 changeOrigin: true,
-                rewrite: path => path.replace(/^\/api/, '')
+                rewrite: (path) => path.replace(/^\/api/, ''),
+                secure: false
             }
         }
     }
